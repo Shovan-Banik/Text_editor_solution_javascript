@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <script src="https://kit.fontawesome.com/64933bad4b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+    <section class="w-10/12 mx-auto bg-cyan-300 mt-5 p-5">
+        <h1 class="text-5xl font-semibold text-center">My Text Editor</h1>
+        <div class="border border-solid border-black mt-2">
+        <div class="w-10/12 mx-auto grid grid-cols-3 justify-between mt-2 p-5">
+            <div class="flex gap-3 mx-auto list-none">
+                <li><button id="bold"><i id="boldI" class="fa-solid fa-bold"></i></button></li>
+                <li><button><i class="fa-solid fa-italic"></i></button></li>
+                <li><button><i class="fa-solid fa-underline"></i></button></li>
+            </div>
+            <div class="flex gap-3 mx-auto list-none">
+                <li><button><i class="fa-solid fa-align-left"></i></button></li>
+                <li><button><i class="fa-solid fa-align-center"></i></button></li>
+                <li><button><i class="fa-solid fa-align-justify"></i></i></button></li>
+                <li><button><i class="fa-solid fa-align-right"></i></button></li>
+            </div>
+            <div class="flex gap-3 mx-auto list-none">
+                <li><button>Aa</button></li>
+                <li><button>17</button></li>
+                <li><input type="color" name="" id=""></li>
+            </div>
+            
+        </div>
+        <div class="text-center"><button>
+            <textarea id="text-area" class="p-5" name="" id="" cols="60" rows="20"></textarea>
+        </div>
+    </div>
+    </section>
+
+   </main>
+   <script src="edit.js"></script>
+</body>
+</html>
